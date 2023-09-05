@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+/* Apply flexbox properties to the holder */
+body {
+    display: flex; /* Make the body a flex container */
+    flex-direction: row; /* Items appear in a row */
+    flex-wrap: wrap; /* Wrap items to the next row when needed */
+    justify-content: space-between; /* Evenly space items in the row */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    margin: 10px; /* Add margin for spacing between menu items */
+}
+
+/* Style the videos */
+video {
+    max-width: 100%; /* Ensure videos don't exceed container width */
+    margin-bottom: 20px; /* Add margin for spacing between videos */
+}
+
+/* Style the heading */
+h1 {
+    width: 100%; /* Ensure the heading spans the full width */
+    text-align: center; /* Center the heading */
+}
